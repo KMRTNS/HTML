@@ -1,6 +1,6 @@
-@import url("./atoms/colors.css");
-@import url("./atoms/typography.css");
-@import url("./atoms/reset.css");
+@import url("./base/colors.css");
+@import url("./base/typography.css");
+@import url("./base/reset.css");
 
 body {
   font-family: var(--font-poppins);
