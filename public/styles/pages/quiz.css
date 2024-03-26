@@ -1,0 +1,37 @@
+@import url("../layouts/header.css");
+
+.quiz_title {
+  text-align: center;
+}
+
+.list_questions {
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+}
+
+.question {
+  display: flex;
+  flex-direction: column;
+}
+
+.question_text {
+  margin-bottom: 8px;
+}
+
+.answer {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+}
+
+.answer_selected {
+  height: 16px;
+  width: 16px;
+}
+
+.answer_text {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 32px;
+}

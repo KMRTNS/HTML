@@ -1,0 +1,9 @@
+@import url("./logo-link.css");
+@import url("./logo-link-icon.css");
+@import url("./logo-text.css");
+
+.logo {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}

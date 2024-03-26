@@ -1,0 +1,7 @@
+:root {
+  --bg-link: rgba(0, 0, 0, 0.3);
+  --color-orange: #c34828;
+  --color-white: #ffffff;
+  --gradient-body: linear-gradient(38deg, #fff, #000);
+  --hover-bg-link: rgba(0, 0, 0, 0.5);
+}

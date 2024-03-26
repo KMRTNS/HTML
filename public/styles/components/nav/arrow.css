@@ -1,0 +1,9 @@
+@import url("./arrow-link.css");
+@import url("./arrow-link-icon.css");
+@import url("./arrow-text.css");
+
+.arrow {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+}

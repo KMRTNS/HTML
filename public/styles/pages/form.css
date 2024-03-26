@@ -1,0 +1,62 @@
+@import url("../layouts/header.css");
+
+.form_title {
+  text-align: center;
+}
+
+fieldset {
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+  padding: 8px;
+}
+
+legend {
+  padding: 0 4px;
+}
+
+.form_item {
+  display: flex;
+  gap: 4px;
+  flex-direction: column;
+}
+
+.form_newsletter {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.newsletter_text {
+  font-size: 12px;
+}
+
+input,
+select,
+textarea {
+  font-family: var(--font-inter);
+  font-size: 16px;
+  padding: 16px;
+}
+
+textarea {
+  height: 54px;
+}
+
+button {
+  cursor: pointer;
+  margin: auto;
+  padding: 10px 0;
+  width: 100px;
+}
+
+@media (min-width: 480px) {
+  fieldset {
+    padding: 20px 24px;
+  }
+
+  .newsletter_text {
+    font-size: 16px;
+  }
+}

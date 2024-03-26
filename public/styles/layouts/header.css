@@ -1,0 +1,8 @@
+@import url("../components/nav.css");
+
+.header {
+  border-bottom: 1px solid #dcdcdc;  
+  margin: auto;
+  max-width: 540px;
+  padding: 20px 24px;
+}
